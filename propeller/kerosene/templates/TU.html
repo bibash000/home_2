@@ -1,0 +1,40 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+        .LUNAR{
+            text-align: center;
+        }
+    </style>
+</head>
+<body>
+    <p class = "LUNAR" style="color:red">Hello Whatsup.</p> 
+    {% for x in a %}
+
+    <p>Hello bro!</p>
+
+    {% if x.image %}
+
+    <img src = "{{x.image.url}}">
+
+    {% else %}
+
+    {% endif %}
+
+    <p>Not Uploaded</p>
+
+    <li>{{x}}</li>
+
+    {% endfor %}
+    
+    
+
+    <p>Hello World!</p>
+
+    <p class = "LUNAR">United Gurkha Academy</p>
+
+</body>
+</html>
